@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+.white {
+  color:#fff !important;
+}
+
 html,
 body {
     width: 100%;
