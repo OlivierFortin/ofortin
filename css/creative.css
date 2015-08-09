@@ -9,6 +9,10 @@
   color:#fff !important;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 html,
 body {
     width: 100%;
