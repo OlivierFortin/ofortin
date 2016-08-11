@@ -22,13 +22,13 @@ gulp.task('default', function () {
         .pipe(gulp.dest('build/js'));
 
     gulp.src('dev/*.html')
-      .pipe(htmlmin({collapseWhitespace: true, removeComments: true, removeEmptyElements: true}))
+      .pipe(htmlmin({collapseWhitespace: true}))
       .pipe(gulp.dest('./'));
 
     gulp.src('dev/font-awesome/**')
       .pipe(gulp.dest('build/font-awesome'));
 
     gulp.src('dev/fonts/**')
-        .pipe(gulp.dest('build/fonts'));
+        .pipe(gulp.dest('fonts'));
 
 });
